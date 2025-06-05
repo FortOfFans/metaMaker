@@ -1,0 +1,85 @@
+{
+  "1001": {
+    "name": "March 7th",
+    "weapons": [
+      "20017",
+      "21009"
+    ],
+    "subStats": [
+      "AddedRatio",
+      "Speed"
+    ],
+    "stats": {},
+    "version": "",
+    "sets": [
+      [
+        "103",
+        "105"
+      ]
+    ],
+    "mainStats": {
+      "BODY": [
+        "Attack",
+        "Speed"
+      ],
+      "FOOT": [
+        "Attack"
+      ],
+      "ORB": [
+        "WindAddedRatio"
+      ],
+      "ROPE": [
+        "AddedRatio",
+        "Speed"
+      ]
+    },
+    "eidolon": "E6",
+    "talents": "Ult > T > B > S",
+    "synergies": []
+  },
+  "1002": {
+    "name": "Dan Heng",
+    "weapons": [
+      "21010",
+      "21031",
+      "21047"
+    ],
+    "subStats": [
+      "AddedRatio",
+      "Speed"
+    ],
+    "stats": {},
+    "version": "",
+    "sets": [
+      [
+        "103",
+        "109"
+      ]
+    ],
+    "mainStats": {
+      "BODY": [
+        "AddedRatio",
+        "Speed"
+      ],
+      "FOOT": [
+        "Defence"
+      ],
+      "ORB": [
+        "IceAddedRatio"
+      ],
+      "ROPE": [
+        "AddedRatio",
+        "Defence"
+      ]
+    },
+    "eidolon": "E6",
+    "talents": "Ult > T > B > S",
+    "synergies": [
+      "1001",
+      "1003",
+      "1004",
+      "1006",
+      "1008"
+    ]
+  }
+}
