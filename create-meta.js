@@ -2,10 +2,10 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 // Load input data
-const weapons = require('D:/GIT//turnbasedgamedata/maps/en/weapons.json');
-const characters = require('D:/GIT//turnbasedgamedata/maps/en/avatar.json');
-const relicSets = require('D:/GIT//turnbasedgamedata/maps/en/relicset.json');
-const statsData = require('D:/GIT//turnbasedgamedata/maps/en/stats.json');
+const weapons = require('./maps/en/weapons.json');
+const characters = require('./maps/en/avatar.json');
+const relicSets = require('./maps/en/relicset.json');
+const statsData = require('./maps/en/stats.json');
 
 const statKeys = Object.keys(statsData).filter(stat => stat !== 'CriticalValue');
 const OUTPUT_FILE = 'meta-output.json';
